@@ -1,17 +1,17 @@
 ## Tietoturvavalvomo (Securtiy Operations Center, SOC)?
 
 
-    To use a formalized, structured, and disciplined
+To use a formalized, structured, and disciplined
     approach for defending against cyber threats,
     organizations typically use the services of
     professionals from a Security Operations Center
     (SOC).
 
-    • SOCs provide a broad range of services, from
+ • SOCs provide a broad range of services, from
     monitoring and management, to comprehensive
     threat solutions and customized hosted security.
 
-    • SOCs can be wholly in-house, owned and operated
+ • SOCs can be wholly in-house, owned and operated
     by a business, or elements of a SOC can be
     contracted out to security vendors, such as
     Cisco’s Managed Security Services.
