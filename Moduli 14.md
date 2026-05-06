@@ -2,11 +2,19 @@
 
 Virus
 
+- Leviää koneelta koneelle käyttäjän toimesta
+
 Mato
+
+- Leviävät itsenäisesti
 
 Troijalainen
 
+- Näyttää viattomalta, onkin haitta ohjelma 
+
 Ransomware
+
+- Salaa datan ja pyytää lunnaat
 
 
 Scareware
@@ -18,13 +26,19 @@ threat.
 Phishing Attempts to convince people to divulge sensitive information. Examples include receiving
 an email from their bank asking users to divulge their account and PIN numbers.
 
+- Kalastelua
+
 Rootkits Installed on a compromised system. After it is installed, it continues to hide its intrusion
 and provide privileged access to the threat actor.
+
+- Antaa root oikeudet hyökkääjälle
 
 Spyware
 Used to gather information about a user and send the information to another entity without
 the user’s consent. Spyware can be a system monitor, Trojan horse, Adware, tracking
 cookies, and key loggers.
+
+-Vakoilee käyttäjää
 
 Adware
 Displays annoying pop-ups to generate revenue for its author. The malware may analyze
@@ -33,6 +47,10 @@ pertinent to those sites.
 
 ## Oireet, joisavoi havaita, että haittaohjelma on saastuttanut koneen
 
+-Oudot tiedostot ja sovellukse
+- Kone ei toimi kunnolla
+- Verkko-ongelmia/hidas netti
+- Tuntemattomia portteja tai palveluita
 
 Computers infected with malware often exhibit one or more of the following symptoms:
 • Appearance of strange files, programs, or desktop icons
