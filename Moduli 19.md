@@ -1,28 +1,53 @@
 ## 'zero trust' - tietoturva
 
-Zero trust is a comprehensive approach to securing all access across networks, applications,
-and environments.
-• This approach helps secure access from users, end-user devices, APIs, IoT, microservices,
-containers, and more.
-• The principle of a zero trust approach is "never trust always verify".
-• A zero trust security framework helps to prevent unauthorized access, contain breaches, and
-reduce the risk of an attacker's lateral movement through a network.
-• In a Zero trust approach, any place at which an access control decision is required should be
-considered a perimeter.
-13© 2020 Cisco and/or its affiliates. All rights reserved. Cisco Confidential
-Access Control
-Zero Trust Security (Contd.)
+Zero Trust on tietoturvamalli, jonka periaate on:
 
-## The three pillars of zero trust are workforce, workloads, and workplace.
-• Zero Trust for the Workforce - This pillar consists of people who access work applications
-by using their personal or corporate-managed devices. It ensures only the right users and
-secure devices can access applications, regardless of location.
-• Zero Trust for Workloads - This pillar is concerned with applications that are running in the
-cloud, in data centers, and other virtualized environments that interact with one another. It
-focuses on secure access when an API, a microservice, or a container is accessing a
-database within an application.
-• Zero Trust for the Workplace - This pillar focuses on secure access for all devices,
-including on the internet of things (IoT), that connect to enterprise networks, such as user
-endpoints, physical and virtual servers, printers, cameras and more
+Älä koskaan luota automaattisesti, varmista aina.
 
-##Pääsynhallinta je elementi joista se muodostuu?
+Sen tarkoitus on suojata pääsy verkkoihin, sovelluksiin ja järjestelmiin riippumatta siitä, mistä käyttäjä, laite tai palvelu yrittää muodostaa yhteyden.
+
+Zero Trustissa mitään käyttäjää, laitetta, sovellusta tai palvelua ei pidetä oletuksena luotettavana. Jokainen pääsypyyntö tarkistetaan erikseen esimerkiksi käyttäjän identiteetin, laitteen turvallisuuden ja käyttöoikeuksien perusteella.
+
+Zero Trust auttaa:
+
+- estämään luvattoman pääsyn
+- rajoittamaan tietomurtojen vaikutuksia
+- vähentämään hyökkääjän liikkumista verkon sisällä
+- suojaamaan käyttäjiä, laitteita, API-rajapintoja, pilvipalveluita ja IoT-laitteita
+
+Zero Trustissa perinteinen ajatus yhdestä verkon “ulkoreunasta” muuttuu: jokainen kohta, jossa tehdään pääsynhallintapäätös, on oma suojausrajansa.
+
+Zero Trustin kolme pilaria
+Pilari	Selitys
+Workforce	Varmistaa, että vain oikeat käyttäjät ja turvalliset laitteet pääsevät sovelluksiin sijainnista riippumatta.
+Workloads	Suojaa sovellusten, APIen, mikropalveluiden, konttien ja tietokantojen välistä liikennettä pilvessä ja datakeskuksissa.
+Workplace	Suojaa kaikki yritysverkkoon liittyvät laitteet, kuten työasemat, palvelimet, tulostimet, kamerat ja IoT-laitteet.
+Pähkinänkuoressa
+
+Zero Trust tarkoittaa, että pääsyä ei anneta pelkän sijainnin tai verkon perusteella. Jokainen käyttäjä, laite ja palvelu tarkistetaan aina ennen kuin pääsy sallitaan.
+
+## Pääsynhallinta je elementi joista se muodostuu?
+
+AAAA
+
+Authentikation eli tunnistautuminen
+
+Authorization eli valtuuttaminen
+
+Accountin eli kirjanpito 
+
+
+1. Tunnistaminen
+   - Kuka käyttäjä on
+3. Todentaminen
+   - Tarkistus käyttäjän oikeuksista
+5. Valtuuttaminen
+   - Käyttääjälle asiallisten oikeuksien myöntäminen
+7. Kirjaaminen ja valvonta
+   -Mitä käyttäjä tekee
+
+Identification = kuka väität olevasi?
+Authentication = todista se.
+Authorization = mitä saat tehdä?
+Accounting / Auditing = mitä teit?
+
