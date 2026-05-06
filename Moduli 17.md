@@ -2,47 +2,47 @@
 
 (Kyber tappoketju
 
-Common stages of a typical web attack:
-• The victim unknowingly visits a web page that has been compromised by malware.
-• The compromised web page redirects the user to a site containing malicious code.
-• The user visits this site with malicious code and their computer becomes infected.
-• After identifying a vulnerable software package running on the victim’s computer, the
-exploit kit contacts the exploit kit server to download the malicious code.
-• After the victim’s computer has been compromised, it connects to the malware server
-and downloads a payload.
-• The final malware package is run on the victim’s computer.
+Uhri tietämättään vierailee haittaohjelman saastuttamalla verkkosivulla.
+
+• Vaarantunut verkkosivu ohjaa käyttäjän sivustolle, joka sisältää haitallista koodia.
+
+• ​​Käyttäjä vierailee tällä sivustolla, joka sisältää haitallista koodia, ja hänen tietokoneensa saa tartunnan.
+
+• Havaittuaan uhrin tietokoneella käynnissä olevan haavoittuvan ohjelmistopaketin, hyökkäyspaketti ottaa yhteyttä hyökkäyspakettipalvelimeen ladatakseen haitallisen koodin.
+
+• Kun uhrin tietokone on saastunut, se muodostaa yhteyden haittaohjelmapalvelimeen ja lataa hyötykuorman.
+
+• Viimeinen haittaohjelmapaketti suoritetaan uhrin tietokoneella.
 
 
 ## Miten hyökkääjä voi hydyntää HTTP:n (web - palvelimien) haavoittuvuuksia
 
 Malicious iFrames 
 
+Toinen nettisivu pyörii sivun sisälle, voi ajaa haittakoodia
+
 HTTP 302 Cushioning
 
+Uhri ohjataan haittasivulle uudelleohjaus pyyntöjen takia
+
 Domain Shadowing
+
+Hyökkääjä käyttää oikean näköistä domainia ja luo aladomaineja. Näitä aladomaineja voi käyttää kalasteluun tai haittaohjemien levittelyyn
 
 
 ## Sähköpostiin kohdistuvat uhat
 
 Examples of email threats:
-• Attachment-based attacks - Threat actors embed malicious content in business files such
-as an email from the IT department.
-• Email spoofing - Threat actors create email messages with a forged sender address that
+• Attachment-based attacks - Haittaohjelma liitteessä 
+• Email spoofing - Väärennetty sposti osoite Threat actors create email messages with a forged sender address that
 is meant to fool the recipient into providing money or sensitive information.
-• Spam email - Threat actors send unsolicited email containing advertisements or malicious
-files.
-• Open mail relay server - This is an SMTP server that allows anybody on the internet to
-send mail.
+• Spam email - spämmi
+•
 
 ## Koodin injektoiminen ja sql injektio?
 
 Code Injection
-• The attacker’s commands are executed through the web application and has the same
-permissions as the web application.
-• This type of attack is used because often there is insufficient validation of input.
-SQL Injection
-• Threat actors use SQL injections to breach the relational database, create malicious
-SQL queries, and obtain sensitive data from the relational database.
-• A successful SQL injection exploit can read sensitive data from the database, modify
-database data, execute administration operations on the database, and sometimes,
-issue commands to the operating system
+
+Koodi ajateen, koska ei validoida oikein
+
+
