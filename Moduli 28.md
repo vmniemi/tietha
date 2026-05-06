@@ -1,12 +1,15 @@
 ##  Digitaalinen rikostutkinta,  millainen prosessi se on
 
+Datan keräys ja säilytys
 
-Collection - Identification of potential sources of forensic data and acquisition, handling,
-and storage of that data
-• Examination - Assessing and extracting relevant information from the collected data
-• Analysis - Drawing conclusions from the data and correlation of data from multiple
-sources
-• Reporting - Preparing and presenting information that resulted from the analysis phase.
+Datan tarkastelu 
+
+Datan analyysi
+
+Datan raportointi
+
+
+
 
 ## Aineiston kerääminen tutkitaessa ja analysoitaessa digitaalisia todisteita - huomioitavat asiat
 
@@ -26,6 +29,8 @@ from best evidence.
 The MITRE ATT&CK Framework
 
 Cyber Kill Chain
+
+Tiedustelu, aseistus, toimitus, haavoituksen hyödyntäminen, asentaminen, c2 ja toimintakohteella
 
 Diamond Model 
 
