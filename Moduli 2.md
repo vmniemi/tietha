@@ -91,13 +91,8 @@ SOC metrics
 ## Mistä  eri lähteistä tieturvadataa kerätään
 
 
-Network Traffic
-Network Flows
-System Logs
-Endpoint Data
-Intel Threat Feeds
-Security Events
-Identify Asset Context
+include Dwell Time, Meant Time to Detect (MTTD), Mean Time to Respond (MTTR), Mean
+Time to Contain (MTTC), and Time to Control.
 
 
 
@@ -118,5 +113,4 @@ Fighters in the War Against Cybercrime Summary
 What Did I Learn in this Module? (Contd.)
 • There must be a balance between security and availability of the networks. Security cannot
 be so strong that it interferes with employees or business functions.
-• A variety of cybersecurity certifications that are relevant to careers in SOCs are available
-from different organizations.
+
