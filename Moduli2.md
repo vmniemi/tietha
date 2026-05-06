@@ -1,5 +1,8 @@
-## Tietoturvavalvomo (Securtiy Operations Center, SOC)?
+## Tietoturvavalvomo (Security Operations Center, SOC)?
 
+
+- SOC monitoroi yrityksen tietoturva liikennettä uhkien varalta.
+- Voi olla sisäinen tai ulkoistettu
 
 To use a formalized, structured, and disciplined
     approach for defending against cyber threats,
@@ -20,8 +23,12 @@ To use a formalized, structured, and disciplined
 Tier 1 Alert Analyst Monitor incoming alerts, verify that a true incident has occurred, and
 forward tickets to Tier 2, if necessary.
 
+- Tier 1 vahtii ja arvioi hälyytyksiä
+
 Tier 2 Incident Responder Responsible for deep investigation of incidents and advise remediation or
 action to be taken.
+
+- Tutkii tarkemmin tier 1 saatuja hälyytyksiä
 
 Tier 3 Threat Hunter Experts in network, endpoint, threat intelligence, malware reverse
 engineering and tracing the processes of the malware to determine its
@@ -30,8 +37,12 @@ hunting for potential threats and implementing threat detection tools. Threat
 hunters search for cyber threats that are present in the network but have
 not yet been detected.
 
+- Aktiivisesti etsii ja tutkii uhkia mahdollisia uhkia, 
+
 SOC Manager Manages all the resources of the SOC and serves as the point of contact
 for the larger organization or customer.
+
+-Välikäsi socin ja johdon välillä
 
 ## SIEM ja SOAR ja  mitä ne tekevät
 
@@ -50,6 +61,8 @@ also manage resources to
 implement preventive measures
 and address future threats.
 
+- SIEM ( Security information and event management), tiivistää ja luokittelee kerättyä dataa relevantiksi analysteille
+
 
 SIEM and Security Orchestration,
 Automation and Response (SOAR) are
@@ -66,6 +79,9 @@ integrate threat intelligence and
 automate incident investigation and
 response workflows based on playbooks
 developed by the security team.
+
+-Vähän sama kuin siem, kerää myös uhkatietoa ja automatisoi työnkulkua playbookkien perusteella
+- Usein käytetään molempia
 
 
 SOC metrics
