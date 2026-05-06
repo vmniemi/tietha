@@ -8,7 +8,14 @@ A server profile is a security baseline for a given server.
 • Logged in users and accounts
 • Service accounts
 
+
+profiili = Normaali tilanne
+
+jos eroaa, tulee häälyytyss
+
 ## CVE ja CVSS
+
+Riski arviointi työkalu
 
 The Common Vulnerability Scoring
 System (CVSS) is a risk assessment
@@ -23,11 +30,16 @@ and Exposures (CVE):
 • CVE identifier provides a
 standard way to research a
 reference to vulnerabilities.
+
 • Threat intelligence services
 use CVE identifiers, and
 they appear in various
 security system logs.
+
 • The CVE Details website
 provides a linkage between
 CVSS scores and CVE
 information.
+
+
+Documentoituja haavoittuvaisuuksia, joita tunnistustyökalut käyttävät
