@@ -3,46 +3,45 @@
 
 Assets, Vulnerabilities, Threats
 
-Assets - Anything of value to an organization that must be protected including servers,
-infrastructure devices, end devices, and the greatest asset, data.
+Assets - Arvokas asia, omaisuus
 
-• Vulnerabilities - A weakness in a system or its design that could be exploited by a threat
-actor.
+• Vulnerabilities - Heikkous tai haavoittuvuus
 
-• Threats - Any potential danger to an asset.
+• Threats - Vaara omaisuudelle
 
 ## Vertausket "sipuli" ja "artisokka" 
 
-Security Onion
-• A common analogy used to describe
-a defense-in-depth approach is
-called "the security onion."
+Security onion eli “turvasipuli” kuvaa perinteistä defense-in-depth-ajattelua.
 
-• As illustrated in figure, a threat actor
-would have to peel away at a
-network’s defenses layer by layer in
-a manner similar to peeling an
-onion.
+Ajatus on, että suojattava kohde on keskellä, ja sen ympärillä on monta kerrosta suojausta.
 
-• Only after penetrating each layer
-would the threat actor reach the
-target data or system.
+[Ulkoverkko]
+    ↓
+[Palomuuri]
+    ↓
+[IDS/IPS]
+    ↓
+[Verkon segmentointi]
+    ↓
+[Pääsynhallinta]
+    ↓
+[Endpoint-suojaus]
+    ↓
+[Data / kriittinen järjestelmä]
 
+Hyökkääjän pitää ikään kuin “kuoria sipulia” ja läpäistä useita suojauskerroksia ennen kuin hän pääsee tärkeään dataan.
 
 Security Artichoke
-• The evolution of borderless networks has changed the
-analogy to the "security artichoke", which benefits the
-threat actor.
 
-• As illustrated in the figure, threat actors no longer
-have to peel away each layer. They only need to
-remove certain "artichoke leaves."
 
-• The bonus is that each "leaf" of the network may
-reveal sensitive data that is not well secured.
-• In order to get at the heart of the artichoke, the hacker
-chips away at the security armor along the perimeter.
+Security artichoke eli “turva-artisokka” kuvaa modernimpaa ongelmaa: kaikki kerrokset eivät ole täydellisesti päällekkäin.
 
-• While internet-facing systems are very well protected,
-persistent hackers do find a gap in that hard-core
-exterior through which they can enter
+Artisokassa on monta “lehteä”, mutta jokainen lehti voi olla oma erillinen suojausalueensa. Hyökkääjän ei välttämättä tarvitse läpäistä kaikkia kerroksia järjestyksessä. Hän voi löytää yhden heikon reitin sisään.
+
+
+1. Varastettu Microsoft 365 -tunnus
+2. Kirjautuminen pilvipalveluun
+3. Pääsy SharePointiin tai sähköposteihin
+4. Datan varastaminen ilman että sisäverkon palomuuria koskaan läpäistään
+
+Tässä onion-malli ei kuvaa tilannetta kovin hyvin, koska hyökkääjä ei “kuori” kaikkia kerroksia. Hän käyttää yhtä erillistä “artisokan lehteä” reittinä sisään.
