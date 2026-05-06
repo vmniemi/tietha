@@ -6,14 +6,14 @@ The Need for Alert Evaluation
 
 Alerts can be classified as follows:
 
-• True Positive: The alert has been verified to be an actual security incident.
+• True Positive: oikea hälyytys The alert has been verified to be an actual security incident.
 
-• False Positive: The alert does not indicate an actual security incident. Benign activity that
+• False Positive: Väärä hälyytys The alert does not indicate an actual security incident. Benign activity that
 results in a false positive is sometimes referred to as a benign trigger.
 
-True Negative: No security incident has occurred. The activity is benign.
+True Negative: Ei tapahtunut mitään No security incident has occurred. The activity is benign.
 
-• False Negative: An undetected incident has occurred.
+• False Negative: Tapahtumaa ei havaittu An undetected incident has occurred.
 
 
 
